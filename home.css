@@ -1,0 +1,80 @@
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    font-size: 64px;
+    text-align: center;
+    color: white;
+}
+
+
+
+#WhoAmI{
+    position:absolute;
+    top: 25%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    animation-name: fade;
+    animation-duration:3s;
+}
+@keyframes fade{
+    from{opacity:0;}
+    to{opacity:1}
+}
+h2 {
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:inline;
+
+}
+h2:hover{
+    background-color: grey;
+    
+}
+
+body {
+    background-color: Black;  
+}
+
+#menu{
+    font-family:'Courier New', Courier, monospace;
+    margin-top: auto;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:auto;
+    font-size: 15px;
+    height: 50px; width: auto;
+    background-color: darkgrey;
+    padding-top: 30px;
+    text-align: center;
+    }    
+
+#general{
+    height: 700px;
+    width: 1910px;
+    opacity: 0.3;
+}
+
+#introparagraph{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:white;
+    text-indent: 50px;
+    line-height: 1.8;
+    animation-name: fade;
+    animation-duration: 3s;
+}
