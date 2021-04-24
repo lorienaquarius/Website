@@ -7,9 +7,9 @@ h1 {
     text-align: center;
     color: white;
 }
-
-
-
+a{
+    color:black;
+}
 #WhoAmI{
     position:absolute;
     top: 25%;
@@ -27,14 +27,13 @@ h1 {
 }
 h2 {
     margin-top: auto;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 100px;
+    margin-left: 100px;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     display:inline;
-
 }
 h2:hover{
     background-color: grey;
@@ -42,13 +41,16 @@ h2:hover{
 }
 
 body{
-    margin: 0;
+    margin-bottom:0;
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
     padding: 0;
     overflow-x:hidden
 }
 
-#menu{
-    font-family:'Courier New', Courier, monospace;
+.menu{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 0;
     margin-right:0;
     margin-left:0;
@@ -58,12 +60,26 @@ body{
     background-color: darkgrey;
     padding-top: 30px;
     text-align: center;
-    }    
+    
+    }
+.bottom{
+    vertical-align:top;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:0;
+    margin-right:0;
+    background-color: grey;
+    height: 200px;
+    width:auto;
+}  
 
 #general{
     height: 700px;
     width: 1910px;
     opacity: 0.3;
+    margin-top:0;
+    margin-bottom:0;
+    padding:0;
 }
 
 #introparagraph{
@@ -78,15 +94,21 @@ body{
     line-height: 1.8;
     animation-name: fade;
     animation-duration: 3s;
+    margin-bottom:0;
 }
 
 #intro{
     background-color:black;
+    margin-bottom:0;
+    margin-top:0;
 }
 
 #coco{
     height:500px;
     width:800px;
+    margin-bottom:0;
+    margin-top:0;
+    display:block;
 }
 
 #dog{
@@ -100,9 +122,27 @@ body{
     width: 800px;
 }
 #cocoexplanation{
+    vertical-align:top;
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 600px;
+    margin-bottom:0;
+    margin-top:0;
+}
+
+.links{
+    display:inline;
+    text-align: center;
+    position:relative;
+    top:50px;
+    bottom:50px;
+    height:100px;
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:100px;
+    padding-right:100px;
+    left:35%;
 }
