@@ -63,6 +63,7 @@ body{
     background-color: darkgrey;
     padding-top: 30px;
     display:block;
+    
     }
 .bottom{
     vertical-align:top;
@@ -149,4 +150,20 @@ body{
     padding-left:100px;
     padding-right:100px;
     left:25%;
+}
+
+/* Beggining of styling specific to MyWork */
+
+#desc{
+    display:block;
+    position: relative;
+    width: auto;
+    height: 1300px;
+    overflow: hidden;
+}
+
+#bestbuild{
+    display:block;
+    height: auto;
+    width: 100%;
 }
