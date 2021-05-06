@@ -26,6 +26,8 @@ a{
     to{opacity:1}
 }
 h2 {
+    position:relative;
+    left: 15%;
     margin-top: auto;
     margin-right: 100px;
     margin-left: 100px;
@@ -50,6 +52,7 @@ body{
 }
 
 .menu{
+    
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 0;
     margin-right:0;
@@ -59,8 +62,7 @@ body{
     height: 50px; width: 1910px;
     background-color: darkgrey;
     padding-top: 30px;
-    text-align: center;
-    
+    display:block;
     }
 .bottom{
     vertical-align:top;
@@ -69,7 +71,7 @@ body{
     margin-left:0;
     margin-right:0;
     background-color: grey;
-    height: 200px;
+    height: 150px;
     width:auto;
 }  
 
@@ -101,6 +103,8 @@ body{
     background-color:black;
     margin-bottom:0;
     margin-top:0;
+    margin-left: 0;
+    margin-right:0;
 }
 
 #coco{
@@ -144,5 +148,5 @@ body{
     margin-right:auto;
     padding-left:100px;
     padding-right:100px;
-    left:30%;
+    left:25%;
 }
